@@ -172,6 +172,9 @@ html, body {
 
 .site-logo img {
     padding-bottom: 2px;
+    max-width: 100px;
+    margin-top: -15px;
+    margin-bottom: -15px;
 }
 
 /* Navigation */
@@ -211,10 +214,11 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/hero.jpg) no-repeat center / cover; 
+    background: url(../img/me_2.jpg) no-repeat center / cover; 
     height: 100%;
     width: 100%;
-    min-height: 700px;
+    min-height: 1278px;
+    margin-bottom: -300px;
 }
 
 .hero .container {
@@ -574,4 +578,22 @@ a.icon-up-bg:hover {color: #212121;}
     line-height: 40px;
     color: #fff;
     text-align: center;
+}
+
+
+
+/* proficiencies */
+
+.proficiencies div {
+    display: inline-block;
+    max-width: 90px;
+}
+
+.proficiencies img {
+    max-width: 100%;
+    margin-top: -83px;
+}
+
+.proficiencies svg {
+  width: 100%;
 }
