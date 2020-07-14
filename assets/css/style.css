@@ -215,7 +215,7 @@ html, body {
 /* HERO
 ================================================== */
 .hero { 
-    background: url(../img/me_2.jpg) no-repeat center / cover; 
+    /* background: url(../img/me_transparent.png) no-repeat center / cover;  */
     height: 100%;
     width: 100%;
     min-height: 1278px;
@@ -240,9 +240,10 @@ html, body {
 }
 
 .hero .col-md-6:last-child {
-    position: absolute;
+    position: fixed;
     right: 0;
     bottom: 0;
+    margin-bottom: 100px;
 }
 
 .hero h1 {
