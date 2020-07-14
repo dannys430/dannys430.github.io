@@ -35,6 +35,10 @@
 		font-size: 24px;
 	}
 
+	.hero .col-md-6:last-child {
+		margin-right: 0px;
+	}
+
 	/* Buttons */ 
 	.btn {
 	    min-width: 120px;
@@ -314,9 +318,9 @@
 
 	/* SITEMAIN
 	================================================== */
-	.site-main {
+	/* .site-main {
 		margin-bottom: 140px;
-	}
+	} */
 
 	/* site-section */
 	.site-section {
