@@ -152,6 +152,16 @@ html, body {
     object-position: left;
 }
 
+.img-res2 {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
 .visible-xxs {
     display: none;
 }
