@@ -114,6 +114,7 @@ h4 {
 
 /* Input fields */
 .form-control {
+    font-size: 20px;
     padding-left: 10px;
     border: 0;
     border-bottom: 1px solid #212121;
@@ -122,6 +123,9 @@ h4 {
     box-shadow: none;
     outline: 0 none transparent;
     -webkit-appearance:none;
+ }
+ .form-control:focus {
+     transform: scale(1.01);
  }
 
 textarea {
