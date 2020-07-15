@@ -406,6 +406,7 @@ body {
 }
 .portfolio-item:hover {
     transform: scale(1.02);
+    border-radius: 20;
 }
 
 /* .portfolio-item:before {
@@ -517,6 +518,8 @@ body {
 
 .modal-footer {
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Section: Counters */
@@ -620,6 +623,10 @@ a.icon-up-bg:hover {color: #212121;}
     color: transparent;
     -webkit-background-clip: text;
     margin-right: 20px;
+}
+
+.modal-footer > .fa {
+    margin-top: 5px;
 }
 
 .copyright {
