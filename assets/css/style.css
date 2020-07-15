@@ -309,9 +309,8 @@ body {
 }
 
 #about.site-section.section-about.text-center {
-    /* background: linear-gradient(to top, #fff 60%, rgb(222, 236, 243) 150%); */
     background: linear-gradient(to top, #fff 75%, transparent 95%);
-}l
+}
 
 /* Section: Skills */
 .section-skills {
