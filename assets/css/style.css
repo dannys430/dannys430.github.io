@@ -400,6 +400,14 @@ body {
     margin-bottom: 0;
 }
 
+.portfolio-item {
+    box-shadow: -10px 10px 20px gray;
+    transition: all 0.2s ease-in-out;
+}
+.portfolio-item:hover {
+    transform: scale(1.02);
+}
+
 /* .portfolio-item:before {
     content: '';
     height: 100%;
