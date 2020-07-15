@@ -45,6 +45,16 @@
 .icon-linkedin:before { content: '\f0e1'; } /* '' */
 .icon-up:before { content: '\f176'; } /* '' */
 
+footer .icon {
+    border: 1px solid #af3;
+}
+
+.icon-up {
+    background-image: linear-gradient(to right, #af3, #6da);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
 /* CUSTOM RESETS
 ================================================== */
 a {
@@ -596,9 +606,9 @@ body {
     margin:0;
 }
 
-.icon:hover {
+/* .icon:hover {
     background-color: #fff;
-}
+} */
 
 .site-footer a {
     transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
