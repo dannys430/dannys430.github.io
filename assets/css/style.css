@@ -142,6 +142,10 @@ html, body {
     color: #212121;
 }
 
+body {
+    overscroll-behavior-y: none;
+}
+
 .img-res {
     display: block;
     width: 100vw;
