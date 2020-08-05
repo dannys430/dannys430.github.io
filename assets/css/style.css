@@ -488,6 +488,11 @@ body {
     margin-top: 10px;
 }
 
+.row-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /* Modal */
 .modal {
     z-index: 9999;
