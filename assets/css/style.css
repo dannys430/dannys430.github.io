@@ -46,7 +46,7 @@
 .icon-up:before { content: '\f176'; } /* '' */
 
 footer .icon {
-    border: 1px solid #af3;
+    border: 2px solid #af3;
 }
 
 .icon-up {
