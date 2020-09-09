@@ -588,6 +588,23 @@ body {
     padding-bottom: 100px;
 }
 
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.email-address {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-number {
+    display: flex;
+    flex-direction: column;
+}
+
 /* FOOTER
 ================================================== */
 .site-footer {
