@@ -591,8 +591,14 @@ body {
 .contact-details {
     display: flex;
     flex-direction: column;
+    text-align: left;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+.contact-details strong {
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .email-address {
