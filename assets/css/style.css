@@ -660,7 +660,7 @@ a.icon-up-bg:hover {color: #212121;}
 /* section 1 icons */
 
 .icon2:before {
-    font-size: 38px;
+    font-size: 40px;
     background-image: linear-gradient(to right, #af3, #6da);
     color: transparent;
     -webkit-background-clip: text;
